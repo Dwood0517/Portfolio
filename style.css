@@ -1,0 +1,90 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; 
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Oswald|Permanent+Marker|Montserrat');
+
+/*--image divider--*/
+#pageContainer {
+    width: 500px;
+    height: 305px;
+    margin: auto;
+    padding: 20px;
+  }
+   /*--image shift to center--*/
+  #imageContainer {
+    width:500px;
+    height:305px;
+    margin: auto;
+    padding:20px;
+  }
+
+
+.wrapper {
+    width: 90%; 
+    margin: auto; 
+  }
+  
+  hr {
+    margin: 60px 0;
+  }
+  
+
+/*--structure--*/
+
+header h1 {
+background-color: #94a89a;
+color: #254d32;
+text-align: left;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    text-align: right;
+    background-color: #94a89a;
+    color: #d4e09b;
+  }
+
+h2 {
+color: #483c46;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+font-size: 40px;
+background-color: #94a89a;
+}
+
+h3 {
+    color: #483c46;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    background-color: #94a89a;
+    }
+
+p {
+    color:#483c46;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    text-align: left;
+    color: #254d32;
+    background-color: #94a89a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+/* Typical links */
+a {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    color: #1e352f;
+  }
+  /* Email Link */
+a[href^="mailto:"] {
+    text-decoration: underline;
+}
