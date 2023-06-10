@@ -4,83 +4,85 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Online Portfolio</title>
+        <title>Portfolio</title>
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
    <!-- header and navigation links--> 
 <body> 
-    <header>
-		<h1 style="color:#254d32; font-size: 40px;">Devynne Steward</h1>
-        <nav>
-            <a href="#introduction">Intro</a>
-            <a href="#About-Me">About Me</a>
-            <a href="#contact">Contact</a>
-        </nav>
-	</header>
+    <div id="headerContainer">
+      <header>
+		 <h1 style="color:#254d32; font-size: 40px;">Devynne Steward</h1>
+           <nav>
+             <a href="#introduction">Introduction</a>
+             <a href="#about-Me">About Me</a>
+             <a href="#contact">Contact Me</a>
+           </nav>
+	   </header>
+    </div>
 
     <!--start of main-->
- <!--image and image container-->
-    <main>
+    <!--image and image container-->
+ <main>
     <div id="pageContainer">
-		<div id="imageContainer">
-			<img src="headshot.jpg" alt="Profile Photo" width="200"> 
-        </div>
+      <aside>
+		<figure id="imageContainer">
+			<img src="images/headshot.jpg" alt="Profile Photo" width="200"> 
+        </figure>
+      </aside>
     </div>
   
-<!--Portfolio info dont forget sematic tags & lists-->
-<!--article one-->
-    <div>
-        <article>
+ <!--Portfolio info dont forget sematic tags & lists-->
+ <!--article one-->
+
+   <article>
         <section id="introduction">
      <h2>Introduction</h2>
      <p>My name is Devynne Steward, currently located in the greater St.Louis area.</p>
         </section>
-    </article>
-    </div>
+   </article>
+
 
  <hr>
 
  <!--article two-->
-  <div>
-    <article>
-        <section id="About-Me">
- <h2>About Me</h2>
-    <ul>
-       <li>Persuing a career as a Software Developer</li>
-       <li>Student at Thinkful</li>
-       <li>Passion for expanding my knowledge and working with like-minded developers</li>
-       <li>Mother of two wonderful boys</li>
-       <li>currently employed for ITF Group LLC, with experience in:
-        <ol>
-            <li>Brokerage/ Sales</li>
-            <li>Recruiting</li>
-        </ol>
-       </li>   
-    </ul>
- </section>
+ <article>
+   <section id="about-Me">
+     <h2>About Me</h2>
+        <ul>
+         <li>Student at Thinkful, pursuing my dream of becoming a Software Engineer</li>
+         <li> I have a passion for learning, reading and creating; Whether I'm transforming ideas into reality through art or programming</li>
+         <li>Mother of two wonderful boys</li>
+         <li>Currently learning:
+           <ol>
+             <li>JavaScript</li>
+             <li>HTML5 </li>
+             <li>CSS3</li>
+           </ol>
+          </li>   
+       </ul>
+    </section>
  </article>
-  </div>
+
 
  <hr>
  
- <!--article three-->
-<!--links to other accounts-->
- <div>
-    <article>
-        <section id="Contact-Me">
- <h3>Contact Me</h3>
-  <ul>
-       <li><a href="http://www.linkedin.com/in/devynne-yvone-steward" target="\_blank">LinkedIn</a></li> 
-       <li><a href="https://github.com/Dwood0517" target="\_blank">Github </a></li> 
-        <li><a href="mailto:https://mail.google.com/mail/u/0/" target="\_blank">Email</a></li> 
-    </ul>
- </section>
- </article>
-  </div>
-  </main>
+   <!--article three-->
+   <!--links to other accounts-->
+
+   <article>
+     <section id="contact">
+      <h3>Contact Me</h3>
+          <ul>
+             <li><a href="http://www.linkedin.com/in/devynne-yvone-steward" target="\_blank">LinkedIn</a></li> 
+             <li><a href="https://github.com/Dwood0517" target="\_blank">Github </a></li> 
+             <li><a href="https://mail.google.com/mail/u/0/" target="\_blank">Email</a></li> 
+            </ul>
+     </section>
+   </article>
+ </main>
 
  <!--footer-->
-  <footer>
+ <footer>
     <p>© Copyright Information</p>
     <p>Devynne Steward/ Thinkful</p>
  </footer>
